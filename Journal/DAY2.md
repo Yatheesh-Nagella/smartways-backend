@@ -103,6 +103,9 @@
    fetch('http://172.20.4.188:8000/api/user', ...)
    ```
 4. Expo worked! iOS app successfully loaded.
+4. Route::get('/ping', function () {
+    return response()->json(['pong' => true]);
+});
 
 ---
 
